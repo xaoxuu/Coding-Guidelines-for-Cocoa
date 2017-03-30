@@ -329,7 +329,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav ul {
-    padding: 5px;
+    padding: 0 0 0 5px;
     /*margin: 0 0 0 18px;*/
     margin:0px;
 }
