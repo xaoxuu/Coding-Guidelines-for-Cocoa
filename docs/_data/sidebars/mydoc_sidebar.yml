@@ -46,7 +46,7 @@ entries:
       output: web, pdf
 
     - title: 书写约定
-      url: /cnb-.html
+      url: /cnb-typographic-conventions.html
       output: web, pdf
 
     - title: 类与协议的命名
