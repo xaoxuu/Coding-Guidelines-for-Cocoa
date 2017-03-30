@@ -1,14 +1,15 @@
 ---
-title: 前缀
+title: 设置规范的前缀
 keywords: 代码 命名 基础 通用 前缀
 last_updated: July 3, 2016
 tags:
 summary:
 sidebar: mydoc_sidebar
-permalink: basis_prefix.html
-folder: basis
+permalink: cnb-prefix.html
+folder: code-naming-basics
 ---
 
+## 前缀
 
 前缀是编程接口命名的重要部分，它们区分了软件的不同功能区域：
 

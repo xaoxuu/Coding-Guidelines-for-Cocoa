@@ -38,31 +38,27 @@ entries:
     folderitems:
 
     - title: 通用原则
-      url: /basis_common.html
+      url: /cnb-common.html
       output: web, pdf
 
-    - title: 前缀
-      url: /basis_prefix.html
+    - title: 设置规范的前缀
+      url: /cnb-prefix.html
       output: web, pdf
 
     - title: 书写约定
-      url: /doc_about.html
+      url: /cnb-.html
       output: web, pdf
 
-    - title: 通用原则
-      url: /doc_about.html
+    - title: 类与协议的命名
+      url: /cnb-.html
       output: web, pdf
 
-    - title: class与protocol命名
-      url: /doc_about.html
-      output: web, pdf
-
-    - title: 头文件
-      url: /doc_about.html
+    - title: 头文件的命名
+      url: /cnb-.html
       output: web, pdf
 
 # 方法
-  - title: 方法
+  - title: 方法的命名
     output: web, pdf
     folderitems:
 
@@ -91,7 +87,7 @@ entries:
       output: web, pdf
 
 
-  - title: 函数
+  - title: 函数的命名
     output: web, pdf
     folderitems:
 
@@ -117,7 +113,7 @@ entries:
       output: web, pdf
 
 # 缩写
-  - title: 缩写
+  - title: 可接受的缩写
     output: web, pdf
     folderitems:
 

@@ -5,12 +5,12 @@ last_updated: July 3, 2016
 tags:
 summary:
 sidebar: mydoc_sidebar
-permalink: basis_common.html
-folder: basis
+permalink: cnb-common.html
+folder: code-naming-basics
 ---
 
 
-#### 1.1 清晰
+# 1. 清晰
 
 尽量清晰又简洁，无法两全时清晰更重要
 
@@ -28,7 +28,7 @@ API命名避免歧义，例如一个方法名有多种理解
 
 ![](assets/1441509905881130.png)
 
-#### 1.2 一致
+# 2. 一致
 
 尽力保持Cocoa编程接口命名一致
 
@@ -39,7 +39,7 @@ API命名避免歧义，例如一个方法名有多种理解
 
 ![](assets/1441509959926816.png)
 
-#### 1.3 避免自引用（self Reference）
+# 3. 避免自引用（self Reference）
 
 命名不应自引用
 
