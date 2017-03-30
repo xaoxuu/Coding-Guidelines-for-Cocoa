@@ -283,12 +283,12 @@ div#toc ul li {
 
 
 div#toc ul li ul {
-    margin: -8px 0;
+    margin: -12px 0;
     border-left: 0;
 }
 
 div#toc ul li ul li::before {
-    margin: -8px 0;
+    margin: -12px 0;
     content: "–  ";
 }
 
