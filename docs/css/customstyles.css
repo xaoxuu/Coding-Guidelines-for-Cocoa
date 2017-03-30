@@ -255,42 +255,43 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-div#toc ul li {
-    /*margin: 8px 0px 8px 22px;*/
-    margin: 16px 32px;
-    font-size: 90%;
-    list-style: square;
-}
+
 div#toc ul {
 
     padding: 16px;
     margin: 16px 0;
-
+    background-color: #FBF5F0;
+    border-left: 5px solid #E4D3C5;
     border-radius: 0;
     /*max-width: 300px;*/
     color: gray;
 }
+div#toc >ul::before {
+    content: "本文目录";
+    font-weight: 500;
+    color: #555;
+    text-align:center;
+    margin: 16px 0;
+    width:70px;
+    padding:16px;
+}
+div#toc ul li {
+    /*margin: 8px 0px 8px 22px;*/
+    padding:16px;
+    font-size: 90%;
+    list-style: square;
+}
+
 
 div#toc ul li ul {
     padding:16px;
-    margin: 16px 0;
 }
 
 div#toc ul li ul li::before {
     content: "–  ";
 }
 
-div#toc >ul::before {
-    content: "本文目录";
-    font-weight: 500;
-    color: #555;
-    background-color: #FBF5F0;
-    border-left: 5px solid #E4D3C5;
-    text-align:center;
-    margin: 16px 0;
-    width:70px;
-    padding:16px;
-}
+
 
 li.dropdownActive a {
     font-weight: bold;
