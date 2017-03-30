@@ -10,8 +10,14 @@ h1 {
   font-weight: bolder;
   padding-bottom: 8px;
 }
-h2 {color: #FF5722; }
-h3 {color: #FF572288; }
+h2 {
+  color: #FF5722;
+}
+h3 {
+  color: #FF5722;
+  font-size: 18px;
+  font-weight: lighter;
+}
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
