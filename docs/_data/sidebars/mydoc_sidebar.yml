@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Cocoa编码规范
-  version: 1.0 beta
+  product:
+  version: 
   folders:
 
   - title:
