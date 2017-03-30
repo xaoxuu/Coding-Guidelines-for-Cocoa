@@ -262,8 +262,9 @@ div#toc ul li {
 }
 div#toc ul {
     background-color: #FBF5F0;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 8px 16px;
+    border-left: 5px solid #E4D3C5;
+    border-radius: 0;
     max-width: 300px;
     color: gray;
 }
