@@ -5,10 +5,8 @@
   items:
     - title: News
       url: /news
-      
     - title: home
       external_url: https://xaoxuu.com
-
     - title: blog
       external_url: https://blog.xaoxuu.com
 
