@@ -54,7 +54,7 @@ entries:
       output: web, pdf
 
     - title: 头文件的命名
-      url: /cnb-.html
+      url: /cnb-header-files.html
       output: web, pdf
 
 # 方法
