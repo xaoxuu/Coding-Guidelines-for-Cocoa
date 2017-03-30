@@ -262,7 +262,7 @@ div#toc ul li {
 }
 div#toc ul {
     background-color: #FBF5F0;
-    padding: 8px 16px;
+    padding: 16px;
     border-left: 5px solid #E4D3C5;
     border-radius: 0;
     max-width: 300px;
@@ -285,10 +285,9 @@ div#toc >ul::before {
     text-align:center;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 16px;
     width:70px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:10px;
+    padding:16px;
 }
 
 li.dropdownActive a {
