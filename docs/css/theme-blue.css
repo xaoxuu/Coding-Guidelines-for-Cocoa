@@ -5,8 +5,8 @@
 }
 
 h1 {
-  color: #555;
-  font-size: 20px;
+  color: #8BC34A;
+  font-size: 18px;
   font-weight: bolder;
   padding-bottom: 8px;
 }
@@ -108,7 +108,7 @@ li.sidebarTitle {
     font-weight:normal;
     font-size:18px;
     color: #8BC34A;
-    margin-bottom:10px;
+    margin-bottom:16px;
     margin-left: 5px;
 
 }
