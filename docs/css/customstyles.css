@@ -219,6 +219,7 @@ p.post-meta {font-size: 80%; color: #777;}
     width:223px;
     border-left: 1px solid #dedede;
     box-shadow: 2px 3px 2px #dedede;
+    border-radius: 0;
 }
 
 
@@ -328,7 +329,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav ul {
-    padding: 0;
+    padding: 5px;
     /*margin: 0 0 0 18px;*/
     margin:0px;
 }
