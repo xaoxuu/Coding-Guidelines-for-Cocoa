@@ -302,7 +302,8 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:10px;
+    margin-top:12px;
+    font-weight: bold;
 }
 
 .post-content .rssfeedLink {
@@ -437,7 +438,7 @@ ul#mysidebar {
 }
 
 span.projectTitle {
-    font-family: Helvetica;
+    font-family: "Ubuntu", Helvetica;
     font-weight: bold;
 }
 
@@ -708,7 +709,7 @@ ol.series li {
     font-size: 200%;
     font-weight: bold;
     color: silver;
-    font-family: monospace;
+    font-family: "Ubuntu", monospace;
     text-align: center;
     line-height: 10px;
     margin: 20px 0px;
@@ -718,7 +719,7 @@ ol.series li {
 .versionTagline {
     text-align: center;
     margin-bottom: 20px;
-    font-family: courier;
+    font-family: "Ubuntu", courier;
     color: silver;
     color: #444;
     display:block;
@@ -823,7 +824,7 @@ a.accordion-toggle {
 
 span.red {
     color: red;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: "Ubuntu", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 h3.codeExplanation {
@@ -844,14 +845,14 @@ span.soft {
 .endpoint {
     padding: 15px;
     background-color: #f0f0f0;
-    font-family: courier;
+    font-family: "Ubuntu", courier;
     font-size: 110%;
     margin: 20px 0px;
     color: #444;
 }
 
 .parameter {
-    font-family: courier;
+    font-family: "Ubuntu", courier;
     color: red !important;
 }
 
@@ -1063,7 +1064,7 @@ table thead th code.highlighter-rouge {
     width: 100px;
     height: 80px;
     background-color: #f5f5f5;
-    font-family: Arial;
+    font-family: "Ubuntu", Arial;
     font-size: 12px;
     hyphens: auto;
     float: left;
@@ -1088,7 +1089,7 @@ table thead th code.highlighter-rouge {
 }
 
 h2.userMapTitle {
-    font-family: Arial;
+    font-family: "Ubuntu", Arial;
 }
 
 #userMap a:hover {

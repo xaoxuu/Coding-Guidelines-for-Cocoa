@@ -135,7 +135,7 @@ This style sets the page margins:
 ```css
 @page {
     margin: 60pt 90pt 60pt 90pt;
-    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style:none;
     color: gray;
 
