@@ -12,9 +12,9 @@
       external_url: https://blog.xaoxuu.com
 
 #Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
     # - title: Jekyll Resources
     #   folderitems:
     #     - title: Github Repo
