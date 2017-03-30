@@ -601,12 +601,13 @@ pre {
   font-family: "Ubuntu", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
-  padding: 2px 4px;
+  margin: 0 4px;
+  padding: 1px 8px;
   font-size: 90%;
-  color: #444;
-  background-color: #f0f0f0;
+  color: #FF7A4E;
+  background-color: #FBF5F0;
   white-space: nowrap;
-  border-radius: 2px;
+  border-radius: 16px;
 }
 
 pre {
