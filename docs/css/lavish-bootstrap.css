@@ -601,8 +601,8 @@ pre {
   font-family: "Ubuntu", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
-  margin: 0 4px;
-  padding: 1px 8px;
+  margin: 0 2px;
+  padding: 1px 6px;
   font-size: 90%;
   color: #FF7A4E;
   background-color: #FBF5F0;
