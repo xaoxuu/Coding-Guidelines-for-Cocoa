@@ -4,7 +4,7 @@ keywords: 代码 命名 基础 通用
 last_updated: July 3, 2016
 tags:
 summary:
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 permalink: nm-delegate-methods.html
 folder: naming-methods
 ---

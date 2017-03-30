@@ -1,22 +1,173 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
+# entries:
+# - title: Sidebar
+#   levels: one
+#   folders:
+#
+#   - title: Products
+#     output: web
+#     folderitems:
+#     - title: News
+#       url: /news.html
+#       output: web
+#     - title: Theme instructions
+#       url: /mydoc_introduction.html
+#       output: web
+#     - title: Product 1
+#       url: /p1_landing_page.html
+#       output: web
+#     - title: Product 2
+#       url: /p2_landing_page.html
+#       output: web
+
+
 entries:
-- title: Sidebar
-  levels: one
+- title: sidebar
+  product: 编码规范
+  version: 1.0 beta
   folders:
 
-  - title: Products
-    output: web
+  - title:
+    output: pdf
+    type: frontmatter
     folderitems:
-    - title: News
-      url: /news.html
-      output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
-      output: web
-    - title: Product 1
-      url: /p1_landing_page.html
-      output: web
-    - title: Product 2
-      url: /p2_landing_page.html
-      output: web
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+
+# 概述
+  # - title: 概述
+  #   output: web, pdf
+  #   folderitems:
+  #
+  #   - title: 简介
+  #     url: /index.html
+  #     output: web, pdf
+  #     type: homepage
+  #
+  #   - title: 关于
+  #     url: /about.html
+  #     output: web, pdf
+
+# 基础
+  - title: 代码命名基础
+    output: web, pdf
+    folderitems:
+
+    - title: 通用原则
+      url: /cnb-general-principles.html
+      output: web, pdf
+
+    - title: 设置规范的前缀
+      url: /cnb-prefix.html
+      output: web, pdf
+
+    - title: 书写约定
+      url: /cnb-typographic-conventions.html
+      output: web, pdf
+
+    - title: 类与协议的命名
+      url: /cnb-class-and-protocol-names.html
+      output: web, pdf
+
+    - title: 头文件的命名
+      url: /cnb-header-files.html
+      output: web, pdf
+
+# 方法 naming-methods
+  - title: 方法的命名
+    output: web, pdf
+    folderitems:
+
+    - title: 通用原则
+      url: /nm-general-rules.html
+      output: web, pdf
+
+    - title: getter和setter方法
+      url: /nm-accessor-methods.html
+      output: web, pdf
+
+    - title: Delegate方法
+      url: /nm-delegate-methods.html
+      output: web, pdf
+
+    - title: 集合方法
+      url: /nm-collection-methods.html
+      output: web, pdf
+
+    - title: 方法参数
+      url: /nm-method-arguments.html
+      output: web, pdf
+
+    - title: 私有方法
+      url: /nm-private-methods.html
+      output: web, pdf
+
+
+# 函数的命名 naming-functions
+  - title: 函数的命名
+    output: web, pdf
+    folderitems:
+
+    - title: 通用原则
+      url: /nf-general-rules.html
+      output: web, pdf
+
+
+# 属性和数据类型 naming-properties-and-data-types
+  - title: 属性和数据类型
+    output: web, pdf
+    folderitems:
+
+    - title: Property实例变量
+      url: /npady-declared-properties-and-instance-variables.html
+      output: web, pdf
+
+    - title: 常量
+      url: /npady-constants.html
+      output: web, pdf
+
+    - title: 通知和异常
+      url: /npady-notifications-and-exceptions.html
+      output: web, pdf
+
+# 缩写 acceptable-abbreviations-and-acronyms
+  - title: 可接受的缩写
+    output: web, pdf
+    folderitems:
+
+    - title: 通用原则
+      url: /aaaa-general-rules.html
+      output: web, pdf
+
+# 框架开发技术 techniques-for-framework-developers
+  - title: 框架开发技术
+    output: web, pdf
+    folderitems:
+
+    - title: Initialization
+      url: /tffd-initialization.html
+      output: web, pdf
+
+    - title: Versioning and Compatibility
+      url: /tffd-versioning-and-compatibility.html
+      output: web, pdf
+
+    - title: Exceptions and Errors
+      url: /tffd-exceptions-and-errors.html
+      output: web, pdf
+
+    - title: Framework Data
+      url: /tffd-framework-data.html
+      output: web, pdf
+
+    - title: Object Comparison
+      url: /tffd-object-comparison.html
+      output: web, pdf
