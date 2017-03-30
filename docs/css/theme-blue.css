@@ -1,12 +1,12 @@
 .summary {
 
-    padding: 16px;
+    padding: 16px 32px;
     margin: 8px 0;
     background-color: #FBF5F0;
     border-left: 5px solid #E4D3C5;
     border-radius: 0;
     color: #555;
-    
+    font-size: 15px;
 }
 
 h1 {

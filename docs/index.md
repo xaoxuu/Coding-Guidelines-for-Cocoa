@@ -4,8 +4,7 @@ keywords: 首页 概述 readme home homepage 简介 参考 附录 pdf 苹果官�
 tags:
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: 原文档[《Coding Guidelines for Cocoa》](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)原意是给Cocoa框架、插件及公共API开发者提供一些编码指导，实质上相当于Apple内部的编码规范。在多人协作时，一份统一的代码规范大大减少开发者之间的沟通成本，极力推荐。
-
+summary: 
 ---
 
 ## 简介
