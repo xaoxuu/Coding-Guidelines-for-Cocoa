@@ -277,6 +277,7 @@ div#toc >ul::before {
 }
 div#toc ul li {
     margin: 8px 16px;
+    padding-left: 8px;
     font-size: 90%;
     list-style: square;
 }
@@ -288,6 +289,7 @@ div#toc ul li ul {
 }
 
 div#toc ul li ul li::before {
+    padding-left: 8px;
     content: "–  ";
 }
 
