@@ -5,7 +5,7 @@ author: xaoxuu
 url: https://xaoxuu.com
 resume_site: https://xaoxuu.com
 github: https://github.com/xaoxuu/
-baseurl: "/coder"
+baseurl:
 description: iOS编码规范
 meta_description: iOS编码规范
 motto: It's our wits that make us men.
@@ -31,7 +31,7 @@ FB:
     duoshuo:
         short_name : xaoxuu
     disqus :
-        short_name : 
+        short_name :
     # facebook :
     #   appid : 123
     #   num_posts: 5
