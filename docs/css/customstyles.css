@@ -276,7 +276,7 @@ div#toc >ul::before {
     padding:16px;
 }
 div#toc ul li {
-    margin: -8px 32px;
+    margin: 0 32px;
     font-size: 90%;
     list-style: square;
 }
