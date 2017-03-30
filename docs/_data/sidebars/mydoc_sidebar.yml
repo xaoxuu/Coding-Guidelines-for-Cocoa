@@ -50,7 +50,7 @@ entries:
       output: web, pdf
 
     - title: 类与协议的命名
-      url: /cnb-.html
+      url: /cnb-class-and-protocol-names.html
       output: web, pdf
 
     - title: 头文件的命名
