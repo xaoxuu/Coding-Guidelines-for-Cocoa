@@ -262,10 +262,10 @@ div#toc ul li {
     list-style: square;
 }
 div#toc ul {
-    background-color: #FBF5F0;
+
     padding: 16px;
     margin: 16px 0;
-    border-left: 5px solid #E4D3C5;
+
     border-radius: 0;
     /*max-width: 300px;*/
     color: gray;
@@ -284,6 +284,8 @@ div#toc >ul::before {
     content: "本文目录";
     font-weight: 500;
     color: #555;
+    background-color: #FBF5F0;
+    border-left: 5px solid #E4D3C5;
     text-align:center;
     margin: 16px 0;
     width:70px;
