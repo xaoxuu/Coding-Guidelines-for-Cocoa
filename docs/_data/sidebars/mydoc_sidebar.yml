@@ -42,7 +42,7 @@ entries:
       output: web, pdf
 
     - title: 前缀
-      url: /doc_about.html
+      url: /basis_prefix.html
       output: web, pdf
 
     - title: 书写约定
