@@ -263,15 +263,16 @@ div#toc ul li {
 div#toc ul {
     background-color: #FBF5F0;
     padding: 16px;
+    margin: 16px;
     border-left: 5px solid #E4D3C5;
     border-radius: 0;
-    max-width: 300px;
+    /*max-width: 300px;*/
     color: gray;
 }
 
 div#toc ul li ul {
-    padding-left:8px;
-
+    padding:16px;
+    margin: 16px;
 }
 
 div#toc ul li ul li::before {
@@ -283,9 +284,7 @@ div#toc >ul::before {
     font-weight: 500;
     color: #555;
     text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 16px;
+    margin: 16px;
     width:70px;
     padding:16px;
 }
