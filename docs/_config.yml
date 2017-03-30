@@ -1,0 +1,39 @@
+# Site settings
+name: 编码规范
+email: feedback@ayan.site
+author: xaoxuu
+url: https://xaoxuu.com
+resume_site: https://xaoxuu.com
+github: https://github.com/xaoxuu/
+baseurl: "/coder"
+description: iOS编码规范
+meta_description: iOS编码规范
+motto: It's our wits that make us men.
+banner: iOS编码规范
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: xaoxuu
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis:
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : xaoxuu
+    disqus :
+        short_name : 
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light

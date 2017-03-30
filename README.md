@@ -3,7 +3,7 @@
 
 
 
-## 苹果编码规范翻译
+## 参考
 
 * [一、代码命名基础](apple-coding-guidelines-for-cocoa-cn/chapter1.md)
 * [二、方法](apple-coding-guidelines-for-cocoa-cn/chapter2.md)
