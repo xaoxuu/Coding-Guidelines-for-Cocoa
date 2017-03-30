@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags:
 summary:
 sidebar: mydoc_sidebar
-permalink: cnb-common.html
+permalink: cnb-general-principles.html
 folder: code-naming-basics
 ---
 

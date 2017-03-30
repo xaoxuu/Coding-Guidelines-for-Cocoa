@@ -38,7 +38,7 @@ entries:
     folderitems:
 
     - title: 通用原则
-      url: /cnb-common.html
+      url: /cnb-general-principles.html
       output: web, pdf
 
     - title: 设置规范的前缀
@@ -57,17 +57,17 @@ entries:
       url: /cnb-header-files.html
       output: web, pdf
 
-# 方法
+# 方法 naming-methods
   - title: 方法的命名
     output: web, pdf
     folderitems:
 
     - title: 通用原则
-      url: /doc_about.html
+      url: /nm-general-rules.html
       output: web, pdf
 
     - title: getter和setter方法
-      url: /doc_about.html
+      url: /nm-accessor-methods.html
       output: web, pdf
 
     - title: Delegate方法
