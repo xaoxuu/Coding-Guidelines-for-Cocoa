@@ -5,9 +5,9 @@ topnav:
   items:
     # - title: News
     #   url: /news
-    - title: home
+    - title: HOME
       external_url: https://xaoxuu.com
-    - title: blog
+    - title: BLOG
       external_url: https://blog.xaoxuu.com
 
 #Topnav dropdowns
