@@ -190,7 +190,9 @@ table {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    /*border: 1px solid #999;*/
+    border-left: 5px solid #E4D3C5;
+    background-color: #FBF5F0;
     page-break-inside: avoid;
   }
   thead {
