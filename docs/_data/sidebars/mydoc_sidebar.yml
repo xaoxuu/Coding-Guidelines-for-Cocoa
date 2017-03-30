@@ -87,63 +87,65 @@ entries:
       output: web, pdf
 
 
+# 函数的命名 naming-functions
   - title: 函数的命名
     output: web, pdf
     folderitems:
 
     - title: 通用原则
-      url: /doc_about.html
+      url: /nf-general-rules.html
       output: web, pdf
 
 
-  - title: Property及其他
+# 属性和数据类型 naming-properties-and-data-types
+  - title: 属性和数据类型
     output: web, pdf
     folderitems:
 
     - title: Property实例变量
-      url: /doc_about.html
+      url: /npady-declared-properties-and-instance-variables.html
       output: web, pdf
 
     - title: 常量
-      url: /doc_about.html
+      url: /npady-constants.html
       output: web, pdf
 
     - title: Notifications与Exceptions
-      url: /doc_about.html
+      url: /npady-notifications-and-exceptions.html
       output: web, pdf
 
-# 缩写
+# 缩写 acceptable-abbreviations-and-acronyms
   - title: 可接受的缩写
     output: web, pdf
     folderitems:
 
     - title: 通用原则
-      url: /doc_about.html
+      url: /aaaa-general-rules.html
       output: web, pdf
 
-
+# 框架开发技术 techniques-for-framework-developers
   - title: 框架开发技术
     output: web, pdf
     folderitems:
 
     - title: Initialization
-      url: /doc_about.html
+      url: /tffd-initialization.html
       output: web, pdf
 
     - title: Versioning and Compatibility
-      url: /doc_about.html
+      url: /tffd-versioning-and-compatibility.html
       output: web, pdf
 
     - title: Exceptions and Errors
-      url: /doc_about.html
+      url: /tffd-exceptions-and-errors.html
       output: web, pdf
 
     - title: Framework Data
-      url: /doc_about.html
+      url: /tffd-framework-data.html
       output: web, pdf
 
     - title: Object Comparison
-      url: /doc_about.html
+      url: /tffd-object-comparison.html
       output: web, pdf
 
 
