@@ -19,18 +19,20 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 概述
-    output: web, pdf
-    folderitems:
 
-    - title: 简介
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
-    - title: 关于
-      url: /about.html
-      output: web, pdf
+# 概述
+  # - title: 概述
+  #   output: web, pdf
+  #   folderitems:
+  #
+  #   - title: 简介
+  #     url: /index.html
+  #     output: web, pdf
+  #     type: homepage
+  #
+  #   - title: 关于
+  #     url: /about.html
+  #     output: web, pdf
 
 # 基础
   - title: 代码命名基础
@@ -71,19 +73,19 @@ entries:
       output: web, pdf
 
     - title: Delegate方法
-      url: /doc_about.html
+      url: /nm-delegate-methods.html
       output: web, pdf
 
     - title: 集合方法
-      url: /doc_about.html
+      url: /nm-collection-methods.html
       output: web, pdf
 
     - title: 方法参数
-      url: /doc_about.html
+      url: /nm-method-arguments.html
       output: web, pdf
 
     - title: 私有方法
-      url: /doc_about.html
+      url: /nm-private-methods.html
       output: web, pdf
 
 
@@ -110,7 +112,7 @@ entries:
       url: /npady-constants.html
       output: web, pdf
 
-    - title: Notifications与Exceptions
+    - title: 通知和异常
       url: /npady-notifications-and-exceptions.html
       output: web, pdf
 
