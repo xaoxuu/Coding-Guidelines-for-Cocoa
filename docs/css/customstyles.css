@@ -276,14 +276,15 @@ div#toc >ul::before {
     padding:16px;
 }
 div#toc ul li {
-    margin: 8px 0px;
+    margin: 8px 16px;
     font-size: 90%;
     list-style: square;
 }
 
 
 div#toc ul li ul {
-    margin: 8px 0px;
+    margin: 8px 16px;
+    border-left: 0;
 }
 
 div#toc ul li ul li::before {
