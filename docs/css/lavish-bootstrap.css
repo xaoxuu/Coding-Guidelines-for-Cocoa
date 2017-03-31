@@ -124,7 +124,7 @@ input {
   line-height: normal;
 }
 input:hover {
-  box-shadow: 0 4px 4px #3336;
+  box-shadow: 0 4px 8px #3336;
 }
 input:focus {
   box-shadow: 0 2px 4px #6666;
