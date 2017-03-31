@@ -3658,7 +3658,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 11px;
+  margin-top: -32px;
   margin-bottom: 8px;
   background-color: transparent;
   border: 1px solid transparent;
