@@ -26,6 +26,10 @@ summary:
 
 - [github/objc-zen - objc-zen-book](https://github.com/objc-zen/objc-zen-book)
 
+- [@jackiehoo - iOS架构师之路：制定代码规范](http://www.jianshu.com/p/24a9abcfdba9)
+
+- [github/NYTimes - objective-c-style-guide](https://github.com/oa414/objc-zen-book-cn)
+
 ## 附录
 
 - [苹果编码规范原文.pdf](assets/Apple-Coding-Guidelines-for-Cocoa.pdf)
