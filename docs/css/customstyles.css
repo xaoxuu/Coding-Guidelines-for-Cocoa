@@ -306,7 +306,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:12px;
+    margin-top:8px;
     font-weight: bold;
 }
 
@@ -397,7 +397,7 @@ background-color: #347DBE;
 .nav > li > a {
     font-size: 14px;
     line-height: 20px;
-    padding: 4px 10px;
+    padding: 8px 12px;
 }
 
 ul#mysidebar {
