@@ -233,12 +233,14 @@ ul#results-container a {
 }
 
 ul#results-container a:hover {
-    color: black;
+    /*color: black;*/
+    color: #03a9f4;
 }
 
 
 #search-demo-container a:hover {
-    color: black;
+    /*color: black;*/
+    color: #03a9f4;
 }
 #search-input {
     padding: .5em 1em;
