@@ -85,7 +85,7 @@ Here's a list with some intercepting text:
 
 2.  Continuing the list
 
-    {% include note.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
+    {% include tip.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
 
     Here's a list in here:
 
@@ -109,7 +109,7 @@ Here's a list with some intercepting text:
 
 2.  Continuing the list
 
-    {% include note.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
+    {% include tip.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
 
     Here's a list in here:
 

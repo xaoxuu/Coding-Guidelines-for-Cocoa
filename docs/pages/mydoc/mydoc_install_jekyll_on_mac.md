@@ -121,7 +121,7 @@ GitHub Metadata: No GitHub API authentication could be found. Some fields may be
 
 If you see this error, you will need to take some additional steps to resolve it. (Note that this error only appears if you have the github-pages gem in your gemfile.) The resolution involves adding a Github token and a cert file.
 
-{% include note.html content="These instructions apply to Mac OS X, but they're highly similar to Windows. These instructions are adapted from a post on [Knight Codes](http://knightcodes.com/miscellaneous/2016/09/13/fix-github-metadata-error.html). If you're on Windows, see the Knight Codes post for details instead of following along below." %}
+{% include tip.html content="These instructions apply to Mac OS X, but they're highly similar to Windows. These instructions are adapted from a post on [Knight Codes](http://knightcodes.com/miscellaneous/2016/09/13/fix-github-metadata-error.html). If you're on Windows, see the Knight Codes post for details instead of following along below." %}
 
 To resolve the "No Github API authentication" error:
 

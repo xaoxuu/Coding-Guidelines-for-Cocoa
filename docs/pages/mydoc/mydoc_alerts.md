@@ -18,12 +18,12 @@ Alerts are little warnings, info, or other messages that you have called out in 
 Similar to [inserting images][mydoc_images], you insert alerts through various includes that have been developed. These includes provide templates through which you pass parameters to easily populate the right HTML code.
 
 ```
-{%raw%}{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}{% endraw%}
+{%raw%}{% include tip.html content="This is my note. All the content I type here is treated as a single paragraph." %}{% endraw%}
 ```
 
 Here's the result:
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+{% include tip.html content="This is my note. All the content I type here is treated as a single paragraph." %}
 
 With alerts, there's just one include property:
 
@@ -34,31 +34,31 @@ With alerts, there's just one include property:
 If you need multiple paragraphs, enter `<br/><br/>` tags. This is because block level tags aren't allowed here, as Kramdown is processing the content as Markdown despite the fact that the content is surrounded by HTML tags. Here's an example with a break:
 
 ```
-{%raw%}{% include note.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}{% endraw%}
+{%raw%}{% include tip.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}{% endraw%}
 ```
 
 Here's the result:
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}
+{% include tip.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}
 
 ## Types of alerts available
 
 There are four types of alerts you can leverage:
 
-* note.html
 * tip.html
+* note.html
+* danger.html
 * warning.html
-* important.html
 
 They function the same except they have a different color, icon, and alert word. You include the different types by selecting the include template you want. Here are samples of each alert:
 
-{% include note.html content="This is my note." %}
+{% include tip.html content="This is my note." %}
 
-{% include tip.html content="This is my tip." %}
+{% include note.html content="This is my tip." %}
 
-{% include warning.html content="This is my warning." %}
+{% include danger.html content="This is my error info." %}
 
-{% include important.html content="This is my important info." %}
+{% include warning.html content="This is my warning info." %}
 
 These alerts leverage includes stored in the \_include folder. The `content` option is a parameter that you pass to the include. In the include, the parameter is passed like this:
 
@@ -122,7 +122,7 @@ Here's the result:
 Suppose you have a product name or some other property that you're storing as a variable in your configuration file (\_config.yml), and you want to use this variable in the `content` parameter for your alert or callout. You will get an error if you use Liquid syntax inside a include parameter. For example, this syntax will produce an error:
 
 ```
-{%raw%}{% include note.html content="The {{site.company}} is pleased to announce an upcoming release." %}{%endraw%}
+{%raw%}{% include tip.html content="The {{site.company}} is pleased to announce an upcoming release." %}{%endraw%}
 ```
 
 The error will say something like this:
@@ -150,13 +150,13 @@ First, before the note I capture the content for my note's include like this:
 Now reference the `company_note` in your `include` parameter like this:
 
 ```
-{%raw%}{% include note.html content=company_note}{%endraw%}
+{%raw%}{% include tip.html content=company_note}{%endraw%}
 ```
 
 Here's the result:
 
 {% capture company_note %}The {{site.company_name}} is pleased to announce an upcoming release.{% endcapture %}
-{% include note.html content=company_note %}
+{% include tip.html content=company_note %}
 
 Note the omission of quotation marks with variable parameters.
 

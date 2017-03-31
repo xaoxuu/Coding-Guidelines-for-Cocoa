@@ -10,7 +10,7 @@ folder: mydoc
 ---
 
 
-{% include note.html content="By \"layout,\" I'm not referring to the layouts in \_layouts in the project files. I'm referring to special ways of presenting information on the same \"page\" layout." %} 
+{% include tip.html content="By \"layout,\" I'm not referring to the layouts in \_layouts in the project files. I'm referring to special ways of presenting information on the same \"page\" layout." %} 
 
 ## FAQ layout
 

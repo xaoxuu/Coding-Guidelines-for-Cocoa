@@ -74,35 +74,35 @@ This means you can insert a tip, note, warning, or important alert simply by usi
 
 
 ```liquid
-{% raw %}{% include note.html content="Add your note here." %}{% endraw %}
+{% raw %}{% include tip.html content="Add your note here." %}{% endraw %}
 ```
 
 
 ```liquid
-{% raw %}{% include tip.html content="Add your tip here." %}{% endraw %}
+{% raw %}{% include note.html content="Add your tip here." %}{% endraw %}
 ```
 
 
 ```liquid
-{% raw %}{% include important.html content="Add your important info here." %}{% endraw %}
+{% raw %}{% include warning.html content="Add your important info here." %}{% endraw %}
 ```
 
 
 {% raw %}
 ```liquid
-{% include warning.html content="Add your warning here." %}
+{% include danger.html content="Add your warning here." %}
 ```
 {% endraw %}
 
 Here's the result:
 
-{% include note.html content="Add your note here." %}
+{% include tip.html content="Add your note here." %}
 
-{% include tip.html content="Here's my tip." %}
+{% include note.html content="Here's my tip." %}
 
-{% include important.html content="This information is very important." %}
+{% include warning.html content="This information is very important." %}
 
-{% include warning.html content="If you overlook this, you may die." %}
+{% include danger.html content="If you overlook this, you may die." %}
 
 The color scheme is the default colors from Bootstrap. You can modify the icons or colors as needed.
 

@@ -38,6 +38,6 @@ Here's an example:
 1. In iTerm, make sure the Toolbar is shown. Go to **View > Toggle Toolbar**.
 2. Click the **New** button and select your profile.
 
-{% include tip.html content="When you're done with the session, make sure to click <b>Ctrl+C</b>." %}
+{% include note.html content="When you're done with the session, make sure to click <b>Ctrl+C</b>." %}
 
 {% include links.html %}

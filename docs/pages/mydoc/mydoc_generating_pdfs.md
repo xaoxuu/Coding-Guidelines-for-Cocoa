@@ -56,7 +56,7 @@ defaults:
       search: true
 ```
 
-{% include note.html content="Although you're creating a PDF, you must still build an HTML web target before running Prince. Prince will pull from the HTML files and from the file-list for the TOC." %}
+{% include tip.html content="Although you're creating a PDF, you must still build an HTML web target before running Prince. Prince will pull from the HTML files and from the file-list for the TOC." %}
 
 Note that the default page layout specified by this configuration file is `page_print`. This layout strips out all the sections that shouldn't appear in the print PDF, such as the sidebar and top navigation bar.
 
@@ -94,7 +94,7 @@ The code in the tocpage.html is mostly identical to that of the sidebar.html pag
 
 There's another file (in the root directory of the theme) that is critical to the PDF generation process: prince-list.txt. This file simply iterates through the items in your sidebar and creates a list of links. Prince will consume the list of links from prince-list.txt and create a running PDF that contains all of the pages listed, with appropriate cross references and styling for them all.
 
-{% include note.html content="If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the mydoc_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation." %}
+{% include tip.html content="If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the mydoc_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation." %}
 
 ## 4. Customize your headers and footers
 
@@ -120,7 +120,7 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
 ```
 {% endraw %}
 
-{% include tip.html content="If you have a link to a file download, or some other link that shouldn't have a cross reference (such as link used in JavaScript for navtabs or collapsible sections, for example, add `noCrossRef` as a class to the link to avoid having it say \"page 0\" in the cross reference." %}
+{% include note.html content="If you have a link to a file download, or some other link that shouldn't have a cross reference (such as link used in JavaScript for navtabs or collapsible sections, for example, add `noCrossRef` as a class to the link to avoid having it say \"page 0\" in the cross reference." %}
 
 This style specifies that after links to web resources, the URL should be inserted instead of the page number:
 
@@ -314,7 +314,7 @@ The prince script issues a command to the Prince utility. JavaScript is enabled 
 
 Make sure that the path to the prince-list.txt is correct. For the output directory, I like to output the PDF file into my project's source (into the files folder). Then when I build the web output, the PDF is included and something I can refer to.
 
-{% include note.html content="You might not want to include the PDF in your project files, since you're likely committing the PDF to Github and as a result saving the changes from one PDF version to another with each save." %}
+{% include tip.html content="You might not want to include the PDF in your project files, since you're likely committing the PDF to Github and as a result saving the changes from one PDF version to another with each save." %}
 
 ## 6. Add conditions for your new builds in the sidebarconfigs.html file
 

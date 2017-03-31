@@ -36,7 +36,7 @@ With this Automated links method, make sure all your pages are referenced in a s
 
 The links.html file (in \_includes) will iterate through all your sidebars and create a list of reference-style markdown links based on the `url` properties in the sidebar items. 
 
-{% include note.html content="For the automated links method to work, each of your pages must have a `permalink` property in the frontmatter. The `permalink` property must match the file name. For example, if the file name is `somefile.html`, your permalink property would be `somefile.html`. See [Pages][mydoc_pages] for more details." %}
+{% include tip.html content="For the automated links method to work, each of your pages must have a `permalink` property in the frontmatter. The `permalink` property must match the file name. For example, if the file name is `somefile.html`, your permalink property would be `somefile.html`. See [Pages][mydoc_pages] for more details." %}
 
 To implement managed links:
 
