@@ -124,10 +124,10 @@ input {
   line-height: normal;
 }
 input:hover {
-  box-shadow: 0 4px 8px #3333;
+  box-shadow: 0 0 32px #0004;
 }
 input:focus {
-  box-shadow: 0 2px 4px #3336;
+  box-shadow: 0 2px 2px #0006;
 }
 button,
 select {
