@@ -15,6 +15,7 @@ summary:
 
 本站内容仅限自己规范编码，不可用于商业用途，转载请注明出处[@xaoxuu](http://coder.xaoxuu.com)。
 
+本站模板来自：[documentation-theme-jekyll](http://idratherbewriting.com/documentation-theme-jekyll/)
 
 ## 参考
 
@@ -61,5 +62,7 @@ summary:
 ## 附录
 
 - [苹果编码规范原文.pdf](assets/Apple-Coding-Guidelines-for-Cocoa.pdf)
+
+
 
 {% include links.html %}
