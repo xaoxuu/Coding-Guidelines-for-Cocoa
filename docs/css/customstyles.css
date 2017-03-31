@@ -208,6 +208,9 @@ p.post-meta {font-size: 80%; color: #777;}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
+#search-demo-container ul{
+  padding: 8px 12px;
+}
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
@@ -220,7 +223,7 @@ p.post-meta {font-size: 80%; color: #777;}
     box-shadow: 0 2px 8px #6666;
     border-radius: 2px;
     margin-top: 4px;
-    padding: 8px 12px;
+
 }
 
 
