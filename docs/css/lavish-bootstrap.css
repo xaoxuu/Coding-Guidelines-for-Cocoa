@@ -3943,7 +3943,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333333;
+  background-color: #0288D1;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
