@@ -1,7 +1,7 @@
 .navbar-inverse {
-  -webkit-box-shadow:0 0 5px #555;
-  -moz-box-shadow:0 0 5px #555;
-  box-shadow:0 0 5px #555;
+  -webkit-box-shadow:0 0 4px #666;
+  -moz-box-shadow:0 0 4px #666;
+  box-shadow:0 0 4px #666;
 }
 
 .summary {
