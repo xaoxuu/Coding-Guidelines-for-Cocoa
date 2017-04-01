@@ -2,7 +2,7 @@
 title: Code samples
 tags: [formatting]
 keywords: dcode samples syntax highlighting
-last_updated: July 3, 2016
+last_updated: 2017-04-01
 datatable: true
 summary: "You can use fenced code blocks with the language specified after the first set of backtick fences."
 sidebar: mydoc_sidebar

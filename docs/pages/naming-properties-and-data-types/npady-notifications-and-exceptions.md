@@ -1,7 +1,7 @@
 ---
 title: 通知和异常
 keywords: 代码 命名 基础 通用
-last_updated: July 3, 2016
+last_updated: 2017-04-01
 tags:
 summary:
 sidebar: home_sidebar

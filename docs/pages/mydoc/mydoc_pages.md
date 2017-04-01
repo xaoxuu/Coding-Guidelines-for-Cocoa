@@ -28,7 +28,7 @@ Make sure each page has frontmatter at the top like this:
 title: Alerts
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
-last_updated: July 3, 2016
+last_updated: 2017-04-01
 summary: "You can insert notes, tips, warnings, and important alerts in your content."
 sidebar: mydoc_sidebar
 permalink: mydoc_alerts.html
