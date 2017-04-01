@@ -217,6 +217,7 @@ p.post-meta {font-size: 80%; color: #777;}
     left: 20px;
     z-index: 0;
     width:240px;
+    box-shadow: 0 2px 8px #6666;
     border-radius: 2px;
     margin-top: 4px;
     padding: 0 12px;
