@@ -126,9 +126,7 @@ input {
 input:hover {
   box-shadow: 0 0 32px #0004;
 }
-input:focus {
-  box-shadow: 0 2px 2px #0006;
-}
+
 button,
 select {
   text-transform: none;
