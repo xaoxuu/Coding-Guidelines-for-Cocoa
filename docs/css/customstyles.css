@@ -316,7 +316,8 @@ li.dropdownActive a {
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
     margin-top:8px;
-    font-weight: normal;
+    font-weight: bold;
+    -moz-osx-font-smoothing:grayscale;
 }
 
 .post-content .rssfeedLink {
