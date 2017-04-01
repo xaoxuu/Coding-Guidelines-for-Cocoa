@@ -215,9 +215,8 @@ p.post-meta {font-size: 80%; color: #777;}
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
-    z-index: -1;
+    z-index: 0;
     width:240px;
-    box-shadow: 0 2px 8px #6666;
     border-radius: 2px;
     margin-top: 4px;
     padding: 0 12px;
@@ -255,7 +254,7 @@ ul#results-container a:hover {
     box-shadow: 0 2px 2px #0004;
 }
 #search-input:hover {
-  box-shadow: 0 0 32px #0005;
+  box-shadow: 0 0 24px #0005;
 }
 /* end search */
 
