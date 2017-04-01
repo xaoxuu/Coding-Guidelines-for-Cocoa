@@ -255,7 +255,7 @@ ul#results-container a:hover {
     box-shadow: 0 2px 2px #0004;
 }
 #search-input:hover {
-  box-shadow: 0 0 16px #0006;
+  box-shadow: 0 0 32px #0005;
 }
 /* end search */
 
