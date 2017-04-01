@@ -1,7 +1,7 @@
 ---
 title: 类与协议的命名
-keywords: 代码 命名 基础 通用 前缀
-last_updated: July 3, 2016
+keywords: 代码 命名 基础 通用 前缀 类名 协议
+last_updated: 2017-04-01
 tags:
 summary:
 sidebar: home_sidebar
