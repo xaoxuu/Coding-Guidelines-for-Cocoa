@@ -43,7 +43,7 @@ layout: default
     <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> 编辑本文</a>
     {% endif %}
     {% if site.coding_editme_path %}
-    <a target="_blank" href="https://git.coding.net/u/{{site.coding_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> 编辑本文</a>
+    <a target="_blank" href="https://coding.net/u/{{site.coding_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> 编辑本文</a>
     {% endif %}
 
   {{content}}
