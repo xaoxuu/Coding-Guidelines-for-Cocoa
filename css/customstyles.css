@@ -252,10 +252,10 @@ ul#results-container a:hover {
     box-sizing: border-box;
     float: right;
     margin-top:10px;
-    box-shadow: 0 2px 2px #0004;
+    box-shadow: 0 2px 2px 0 #0004;
 }
 #search-input:hover {
-  box-shadow: 0 0 24px #0005;
+  box-shadow: 0 0 24px 0 #0005;
 }
 /* end search */
 
