@@ -12,8 +12,8 @@ site_title: Cocoa编码规范
 company_name: Titan Studio, Inc
 # this appears in the footer
 
-coding_editme_path: xaoxuu/p/cocoa/git/blob/master/
-# github_editme_path: xaoxuu/Coding-Guidelines-for-Cocoa/tree/master/docs/
+# coding_editme_path: xaoxuu/p/cocoa/git/blob/master/
+github_editme_path: xaoxuu/Coding-Guidelines-for-Cocoa/tree/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname:
