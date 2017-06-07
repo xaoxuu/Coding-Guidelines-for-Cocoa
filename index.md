@@ -62,7 +62,7 @@ summary:
 
 ## 附录
 
-- [苹果编码规范原文.pdf](assets/Apple-Coding-Guidelines-for-Cocoa.pdf)
+- [苹果编码规范原文.pdf](https://github.com/xaoxuu/Coding-Guidelines-for-Cocoa/releases/download/downloads/Apple-Coding-Guidelines-for-Cocoa.pdf)
 
 
 
